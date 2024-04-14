@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(209, 207, 207);
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,88,1) 30%, rgba(0,36,44,1) 47%, rgba(0,117,143,1) 100%);
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+nav ul li img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 25px;
+
+
+}
+nav ul {
+    position: relative;
+    margin-top: 60px;
+
+}
+nav ul li {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 10px;
+
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+nav .logo {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.navtop {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 200px;
+    color: black;
+    text-align: center;
+    z-index: 30;
+    
+}
+.navtitle {
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+.navtitle h1 {
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 140%;
+   
+}
+
+.navicon {
+    position: fixed;
+    top: 5px;
+    left: 210px;
+    display: flex;
+    height: 50px;
+    width: 35px;
+    flex-direction: column;
+}
+.adminprofile {
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    gap: 10px;
+    left: 75%;
+    
+}
+.adminprofile #profileIMG{
+    height: 40px;
+    width: 40px;
+}
+.adminprofile #buntot{
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.adminprofile #buntot:hover{
+    transform: scale(1.2);
+}
+.adminprofile #buntot:hover{
+    transition: .3s ease-in-out;
+}
+.email{
+    position: relative;
+    top: 70px;
+   
+}
+.email h2{
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+}
+.email h3{
+    color: #fff;
+    text-align: center;
+}
+section{
+    background-color: #f1f1f1;
+    width: calc(100% - 200px);
+    height: 91.97vh;
+    position: relative;
+    top: 50px;  
+    left: 200px;
+    
+}
+.box-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    margin-top: 80px;
+    position: relative;
+    gap: 20px;
+}
+.boxes{
+    background-color: #fff;
+    height: 100%;
+    width: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+#largebox{
+    width: 700px;
+}
+table {
+  border-collapse: collapse;
+  width: 500px;
+  border: 2px solid #fff;
+  height: auto;
+  margin-top: 40px;
+  position: relative;
+}
+table th,td{
+  padding: 10px;
+  text-align: center;
+  border: 2px solid;
+}
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.table-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 93vh;
+    top: 40px;
+    position: relative;
+}
+.button{
+    display: flex;
+    position: relative;
+    left: 30.5%;
+    margin-top: 30px;
+}
